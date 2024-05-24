@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 
 
-$colors: (bg: rgba(55, 66, 76, 1),
+$colors: (
+    bg: rgba(55, 66, 76, 1),
     theGreen: rgba(0, 173, 43, 1),
     theRed: rgba(194, 47, 51, 1),
     theOrange: rgba(255, 103, 0, 1),
@@ -50,11 +51,12 @@ $colors: (bg: rgba(55, 66, 76, 1),
 
 * {
     background-color: getColor(coolGrey1000);
+
     *::before,
     *::after {
         box-sizing: border-box;
         border: none;
-      
+
     }
 
     body,
@@ -76,7 +78,27 @@ body {
     background-color: var(--background-color);
 
 }
+
 //_ ████████████████████████████████████  GENERIC ABOVE
 
 //>  ████████████████████████████████████  THIS LESSON BELOW
 
+.container {
+    max-width: 32em;
+}
+
+input[type=text],
+input[type=text]:focus {
+    color: #fff;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    max-width: 32em;
+}
+
+.todos li {
+    background: #423a6f;
+}
+
+.delete {
+    cursor: pointer;
+}

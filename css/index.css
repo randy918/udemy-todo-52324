@@ -28,4 +28,24 @@
 body {
   margin-top: 6vw;
   background-color: var(--background-color);
+}
+
+.container {
+  max-width: 32em;
+}
+
+input[type=text],
+input[type=text]:focus {
+  color: #fff;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 32em;
+}
+
+.todos li {
+  background: #423a6f;
+}
+
+.delete {
+  cursor: pointer;
 }/*# sourceMappingURL=index.css.map */
