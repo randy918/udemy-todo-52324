@@ -18,18 +18,16 @@ const makeTemplate = todo => {
 };
 
 
-//^  ████████████████████████████████████  MAIN PROGRAM
+//^ ████████████████████████████████████  MAIN PROGRAM
+
+//_ ████████████████████████████████████  EVENT LISTENERS
+
+//> ████████████████████████████████████  SUBMIT
 
 addEntry.addEventListener('submit', e => {
 
-if (e.length) {
-console.log("🚀 ~ addEntry.length:", addEntry.length);
-
-console.log('kk');
-
-}
-
     e.preventDefault();
     const todo = addEntry.add.value.trim();
-    makeTemplate(todo);
+    console.log("⨠ addEntry.add.value:", addEntry.add.value.trim());
+
 });

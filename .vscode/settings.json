@@ -27,5 +27,7 @@
         "titleBar.inactiveBackground": "#65fa7899",
         "titleBar.inactiveForeground": "#15202b99"
     },
-    "peacock.color": "65FA78"
+    "peacock.color": "65FA78",
+    "turboConsoleLog.logMessagePrefix": "",
+    "turboConsoleLog.delimiterInsideMessage": "⨠"
 }
