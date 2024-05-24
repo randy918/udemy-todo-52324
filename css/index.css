@@ -36,14 +36,14 @@ body {
 
 input[type=text],
 input[type=text]:focus {
-  color: #fff;
+  color: rgb(228, 231, 235);
   border: none;
   background: rgba(0, 0, 0, 0.2);
   max-width: 32em;
 }
 
 .todos li {
-  background: #423a6f;
+  background: rgb(82, 96, 109);
 }
 
 .delete {
